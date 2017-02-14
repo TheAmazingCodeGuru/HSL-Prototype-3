@@ -1,0 +1,167 @@
+/* == initialisation == */
+html{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+}
+/* == initialisation == */
+
+/* == General == */
+h2{
+    color: #555;
+    margin: 10px;
+}
+/* == General == */
+
+/* == Header == */
+.space-box{
+    margin: 0px;
+    position: relative;
+    height: 80%;
+    background-image: url("scr00002.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* == Header == */
+
+/* == HSL == */
+.home{
+    text-align: center;
+    margin: 0px;
+    position: relative;
+}
+
+.content > .hsl > .description{
+    max-width: 650px;
+    margin: auto;
+}
+
+.home > .hsl > .projects{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+    padding: 30px;
+}
+
+.home > .hsl > .projects > img{
+    /* Need to chack if % based sizing is optimal */
+    width: 100px;
+    height: 100px;
+}
+
+
+/* == HSL == */
+
+/* == Duchifat-1 ==*/
+.duchifat-1:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background-image: url(1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+   -moz-transition: transform 0.5s ease, -moz-filter 0.4s, ease;
+    -ms-transition: transform 0.5s ease, -ms-filter 0.4s, ease;
+    -o-transition: transform 0.5s ease, -o-filter 0.4s, ease;
+    -webkit-transition: transform 0.5s ease, -webkit-filter 0.4s, ease;
+    transition: transform 0.5s ease, filter 0.4s, ease;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0x);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    background-repeat: no-repeat;
+}
+
+.duchifat-1{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    color: white;
+    font-size: 2.5em;
+}
+
+.duchifat-1.hover:before{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -o-filter: blur(3px);
+    -moz-filter: blur(3px);
+    
+}
+
+.duchifat-1 > p{
+    margin-left: 50%;
+}
+
+.duchifat-1 > a{
+    margin-left: 50%;
+}
+
+.duchifat-1 > h3{
+    margin-left: 50%;
+}
+
+
+/* 
+background-size: 100%;
+    -moz-transition: background-size 0.5s ease, -moz-filter 0.4s, ease;
+    -ms-transition: background-size 0.5s ease, -ms-filter 0.4s, ease;
+    -o-transition: background-size 0.5s ease, -o-filter 0.4s, ease;
+    -webkit-transition: background-size 0.5s ease, -webkit-filter 0.4s, ease;
+    transition: background-size 0.5s ease, filter 0.4s, ease;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0x);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    */
+
+.duchifat-1 > .content > p{
+    margin-bottom: 40px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+/* == Duchifat-1 ==*/
+
+/* == Animations == */
+@keyframes size{
+    0% {height: 100px; width: 100px;}
+    100% {height: 150px; width: 150px;}
+}
+
+@keyframes sizeback{
+    0% {height: 150px; width: 150px;}
+    100% {height: 100px; width: 100px;}
+}
+/* == Animations == */
+
+
+/* == External Resaurces == */
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active{
+    background-color: #e3e5e5;
+}
+
+/* == External Resaurces == */
