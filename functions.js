@@ -1,7 +1,10 @@
-$(".duchifat-1").hover(
+/* == Strip Hover animation ==*/
+$(".strip").hover(
     function(){
-        $(".duchifat-1").addClass("hover");
+        $(this).addClass("hover");
     }, function(){
-        $(".duchifat-1").removeClass("hover");
+        $(this).removeClass("hover");
     }
 );
+/* == Strip Hover animation ==*/
+
