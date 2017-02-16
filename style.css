@@ -134,7 +134,7 @@ nav.main-nav > ul > a > li > h2{
 /* == Strip == */
 /* == Duchifat-1 ==*/
 .duchifat-1{
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-weight: bold;
     height: 500px;
 }
@@ -146,30 +146,13 @@ nav.main-nav > ul > a > li > h2{
     
 }
 
-.duchifat-1 > p{
+.duchifat-1 > *{
     margin-left: 50%;
 }
 
-.duchifat-1 > a{
-    margin-left: 50%;
-}
 
-.duchifat-1 > h3{
-    margin-left: 50%;
-}
-
-.duchifat-1 > .content > p{
+.strip > .content > p{
     margin-bottom: 40px;
-}
-.duchifat-1 > .feature{
-    font-size: 0.5em;
-    position: absolute;
-    bottom: 200px;
-    right: 50%;
-    background-color: orange;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
 }
 
 .duchifat-1 > .feature > img{
@@ -190,10 +173,14 @@ nav.main-nav > ul > a > li > h2{
 /* == Duchifat-2 == */
 .duchifat-2{
     height: 500px;
+    font-size: 2.5em;
 }
 .duchifat-2:before{
     background-image: url(1.jpg);
     background-size: cover;
+}
+.duchifat-2 > *{
+    margin-left: 10%;
 }
 /* == Duchifat-2 == */
 
